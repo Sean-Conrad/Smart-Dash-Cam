@@ -11,7 +11,9 @@ We used Yolonet and trained it against many images of cars in order to detect a 
 ## MobileNet
 We used a dataset of 10 different cars with an extensive amount of pictures for each car to train the model. 
 ![image](https://github.com/Sean-Conrad/Smart-Dash-Cam/assets/98624752/0078277b-8d54-4e48-bc57-5c583531e538)
+
 Our goal was to hit at least 92% confidence for our model when testing against images of cars that weren't in the dataset. We used an Acura Integra to test the model.
+
 ![Directory3](https://github.com/Sean-Conrad/Smart-Dash-Cam/assets/98624752/308f9648-e4d1-4f27-9f0c-7eac136f624d)
 
 
@@ -49,7 +51,7 @@ made to the device. The software expereinced significant lag when ran on the pro
 computer. This can be improved by rewriting the program in C in order to utilize TensorFlow's lightweight version 
 for mobile models. Additionally, using the newer version of the Jetson Nano with 2 extra GB of memory would 
 further optimize the runtime. Minor tweaks to the User Interface implementation, and more effective abstraction 
-of program functionsmay help as well. All in all, this project exemplifies the core beauty of computer engineering, 
+of program functions may help as well. All in all, this project exemplifies the core beauty of computer engineering, 
 marrying the _physicalality_ of Electrical Hardware, the _intentionality_ of Computer Aided Design, the _abstract_ 
 in UI and Software, and _innovation_ through novel concepts in Machine Learning.
 
